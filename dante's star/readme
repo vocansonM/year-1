@@ -1,0 +1,5 @@
+DESCRIPTION :
+	on this project, we had to do a program that randomly create a maze and another program who can solve any maze.
+USAGE :
+	do "make" to compile the file then ./generator/generator "x size" "y size" > "name of a file to save the maze"
+	then to solve it ./solver/solver "name of the file with the maze" to solve it

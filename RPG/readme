@@ -1,0 +1,4 @@
+DESCRIPTION :
+	this project is a RPG inspired of pokemon and the anime jojo.
+USAGE :
+	to run this program do "make" in your command panel, wait for it to compile and do ./my_rpg
