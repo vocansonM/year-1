@@ -1,5 +1,0 @@
-DESCRIPTION :
-	this project is insiped on the famous game "matchstick", were you choose a line and a number of stick to 
-	remove on this line, the player who pick a stick in last lose.
-USAGE :
-	to run this project do "make" in your command panel and ./matchstick "number of line" "max matches"

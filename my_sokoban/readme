@@ -1,4 +1,0 @@
-DESCRIPTION :
-	this project is inspired of the game called "sokoban" on which we are supposed to move some crate on marked area.
-USAGE :
-	compile all file with "make" on ur command panel, then u can do ./my_sokoban "map" or ./my_sokoban -h for more help.
