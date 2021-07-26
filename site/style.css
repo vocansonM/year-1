@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Zen+Tokyo+Zoo&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Oswald sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: cenrer;
+    border-bottom: 5px Solid #6f6f6f;
+}
+
+nav h1{
+    color: #000;
+    font-size: 50px;
+    font-family: Zen Tokyo Zoo;
+}
+
+nav .onglets{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+    border-bottom: 5px Solid #6f6f6f;
+}
+
+header h1{
+    font-family: 'Oswald sans-serif';
+    font-size: 50px;
+    text-align: center;
+}
+
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    border-bottom: 5px Solid #6f6f6f;
+}
+
+.main .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Oswald sans-serif';
+    text-align: center;
+}
+
+.main .content .left{
+    padding-bottom: 40px;
+}
+
+.main .content .right img{
+    height: 250px;
+    width: 250px;
+    border-bottom: 5px solid #000;
+    border-top: 5px solid #000;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+}
+
+.main2{
+    border-bottom: 5px Solid #6f6f6f;
+    background-color: #000;
+    padding-bottom: 50px;
+}
+
+.main2 .cv .title{
+    padding-top: 20px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.main2 .cv .img{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact{
+    padding: 10px;
+    padding-bottom: 50px;
+    background-color: #6f6f6f;
+}
+
+.contact .title{
+    font-size: 30px;
+}
+
+.contact .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
